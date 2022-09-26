@@ -1,0 +1,80 @@
+-------------------------------------------what is cache management?-----------------------------------------
+
+---------------->    Cache is a type of memory that is used to increase the speed of data access.
+---------------->    Normally, the data required for any process resides in the main memory.
+---------------->    However, it is transferred to the cache memory temporarily if it is used frequently enough.
+
+
+
+-----------------------------------------The cache performance can be explained using the following steps −-------------------------------
+
+----->  If a process needs some data, it first searches in the cache memory.
+------> If the data is available in the cache, this is termed as a cache hit and the data is accessed as required.
+------> If the data is not in the cache then it is termed as a cache miss. 
+------> Then the data is obtained from the main memory. After that the data is transferred to the cache memory under the assumption that it will be needed again.
+------>  The performance of the cache is measured using the hit ratio. It is the number of cache hits divided by the total cache accesses. 
+
+----------The formula for this is:--------------
+
+Hit Ratio  =  No.of cache hits /  no.of cache hits +  no.of cache misses
+
+------two types -----
+
+---> primary cache
+
+---------Primary cache is very fast and its access time is similar to the processor registers.
+         This is because it is built onto the processor chip. However because of this reason, its size is quite small.
+            It is also known as a level 1 cache and is build using static RAM (SRAM).
+
+
+---> secondary cache
+
+------------->  The secondary cache or external cache is cache memory that is external to the primary cache. 
+            It is located between the primary cache and the main memory. 
+            It is also known as a level 2 cache and is often housed on the processor chip as well.
+
+
+
+------------------------Differences between cookies and cache and session ----------------------------------------------------------------
+
+-----------------------------------cookies------------------
+
+Web cookie, also named browser cookie/internet cookies/HTTP cookie, is a small amount of data that is stored on your computer by the web browser
+ when you browse a web page. Cookies are used for remembering user’s browsing activity, 
+ e.g. clicking specific items or buttons, logging in information like names, passwords, addresses, payment card numbers, visited web pages, etc.
+
+--------------------------------------------cache -------------------------
+
+Web cache, also called HTTP cache, is a tech for storing temporary information like web pages, images, files, scripts or other web multimedia. 
+Cache is mainly used to reduce the server lag and reduce the loading speed of web page data.
+
+-------------------------------------------session-------------------------------
+
+In the computing world, 
+session is the temporary interactive information between multiple communicating devices or between the user and computer.
+
+
+
+----------------------------Difference between Cache and Cookies-----------------------
+
+
+-------->  Cache’s function is to make the web page load faster while cookie’s function is to track user’s different browsing activities.
+--------> Cache is composed of files, images, videos, audio, scripts or other multimedia files of the web pages you visited.
+--------> Cookies stores information related to the user’s web browsing activity like user’s preferences, login information, etc.
+------> Cache always exists in the user’s computer unless the user manually clears cache of the browser. (Related: how to clear cache for one site). 
+------> However, cookies will expire for a period of time, and the user needs to enter the login information again.
+
+
+------------------------------------Difference between Cookies and Session---------------------------------------------
+
+------> Both cookies and sessions contain user information, but cookies are stored at the client side while sessions are stored on the server-side.
+-----> Cookies expire after a period of time while sessions end when a user closes the browser.
+-----> The maximum size of cookie is 4KB. However, there is no limit on the size or number of sessions.
+-----> Cookies can be disabled but sessions cannot be disabled.
+-----> 
+
+Sessions depend on cookies but cookies are not dependent on sessions.
+
+
+
+
